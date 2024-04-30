@@ -5,6 +5,7 @@
 This project aims to retrieve data of different channels that are given by the user using channel ID that is unique to the channel. The data involves an outline of the channel, its purpose along with videos and comment details .The data are then stored in a database and queried to extract relevant information.
 
 **2. Key Skills**
+
 **2.1 Python**
 
 Python Programming language was used in retrieval ,manipulation and analysis of channel data along with some libraries .
@@ -19,9 +20,11 @@ Streamlit framework works as a user interface to accept  a channel Id and showca
 
 **3. Libraries Installed**
 The following libraries were used:
+![image112](https://github.com/Aparna-R5/Youtube_Project/assets/167562414/d37b28f7-31a3-4289-9aec-a686060605ad)
 
 
 **4. Workflow**
+
 **4.1 Data Retrieval**
 
 API key helps  in accessing the channel information and the information is separated in the form of channel, video, comment and playlist details. 

@@ -75,14 +75,14 @@ def get_video_details(video_IDS):
                 Channel_id = item['snippet']['channelId'],
                 Video_name=item['snippet']['title'],
                 Video_description = item['snippet']['description'],
-                #Tags = item['snippet'].get('tags', []),
+                Tags = item['snippet'].get('tags', []),
                 PublishedAt = item['snippet']['publishedAt'],
                 View_count = item['statistics'].get('viewCount', 0),
                 Comment_count = item['statistics'].get('commentCount', 0),
                 Favourite_count = item['statistics'].get('favoriteCount', 0),
                 Like_count =  item['statistics'].get('likeCount', 0),
                 Duration = item['contentDetails'].get('duration', ''),
-                #Thumbnail = item['snippet']['thumbnails'],
+                Thumbnail = item['snippet']['thumbnails'],
                 Caption_status = item['contentDetails'].get('caption', ''))
                 video_data.append(data)
     return video_data

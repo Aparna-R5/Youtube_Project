@@ -1,6 +1,6 @@
 # Youtube Data harvesting and Warehousing Project
-1.Overview
-This project aims to retrieve data of different channels that are given by the user using channel ID that is unique to the channel. The data involves an outline of the channel, its purpose along with videos and comment details .The data are then stored in a database and queried to extract relevant information.
+##1.Overview
+-This project aims to retrieve data of different channels that are given by the user using channel ID that is unique to the channel. The data involves an outline of the channel, its purpose along with videos and comment details .The data are then stored in a database and queried to extract relevant information.
 
 2. Key Skills
 2.1 Python

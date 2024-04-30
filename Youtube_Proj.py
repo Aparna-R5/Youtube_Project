@@ -217,6 +217,11 @@ if cha:
                                  'Comment_Text': sqlalchemy.types.TEXT,
                                 'Comment_Author': sqlalchemy.types.VARCHAR(225),
                                 'Comment_Published': sqlalchemy.types.VARCHAR(50)})
+    chan["playlist_details"].to_sql('playlist', engine, if_exists='append', index=False,
+                            dtype = {"Channel_Id": sqlalchemy.types.VARCHAR(length=225),
+                                    "Playlist_Id": sqlalchemy.types.VARCHAR(length=225),
+                                    "Playlist_name":sqlalchemy.types.TEXT})
+
 
 # streamlit code to write details based on user selection
 if go:

@@ -2,13 +2,13 @@
 
 **1.Overview**
 
-This project aims to retrieve data of different channels that are given by the user using channel ID that is unique to the channel. The data involves an outline of the channel, its purpose along with videos and comment details .The data are then stored in a database and queried to extract relevant information.
+This project aims to retrieve data from different channels that are given by the user using a Channel ID that is unique to the channel. The data involves an outline of the channel, along with videos and comment details .The data is then  migrated to a database for further analysis.
 
 **2. Key Skills**
 
 **2.1 Python**
 
-Python Programming language was used in retrieval ,manipulation and analysis of channel data along with some libraries .
+Python Programming language was used in retrieval ,manipulation and analysis of channel data along with some libraries sucha as pandas.
 
 **2.2 SQL**
 
@@ -29,11 +29,11 @@ The following libraries were used:
 
 **4.1 Data Retrieval**
 
-API key helps  in accessing the channel information and the information is separated in the form of channel, video, comment and playlist details. 
+Youtube API is used to access the channel information and googleapiclient library in python is used to connect to the API.The channel details are loaded to pandas dataframe before warehousing.
 
 **4.2 Migration to MySQL**
 
- Data is loaded to pandas following which a database is created in MySQL  and  the channel details are migrated to that database .
+A database is created in MySQL and the channel details are migrated to that database with separate tables for videos , comments and playlist .
  
 **4.3 Analysis**
 

@@ -8,7 +8,7 @@ This project aims to retrieve data from different channels that are given by the
 
 **2.1 Python**
 
-Python Programming language was used in retrieval ,manipulation and analysis of channel data along with some libraries sucha as pandas.
+Python Programming language was used in retrieval ,manipulation and analysis of channel data along with some libraries such as pandas.
 
 **2.2 SQL**
 
